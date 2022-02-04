@@ -1,0 +1,17 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ritikagarwal47/Test_project.git",
+  "author": "ritik <ritikagarwal470@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
