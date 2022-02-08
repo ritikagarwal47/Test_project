@@ -1,12 +1,7 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.app = void 0;
-const express_1 = __importDefault(require("express"));
-//console.log("Hello")
-const app = (0, express_1.default)();
-exports.app = app;
-app.lisen(5000, () => console.log('Server Running'));
+// import express, { Application ,/* Request , Response , Nextfunction*/} from 'express';
+// //console.log("Hello")
+// const app: Application = express();
+// export { app };
+// app.lisen(1337,()=> console.log('Server Running'))
 //# sourceMappingURL=app.js.map
