@@ -1,5 +1,5 @@
 import { Response, Request } from "express"
-import { ITodo } from "./../../types/todo"
+import { ITodo } from "../../types/todo"
 import Todo from "../../models/todo"
 
 
@@ -42,6 +42,7 @@ const updateTodo = async (req: Request, res: Response): Promise<void> => {
       body
     )
     const allTodos: ITodo[] = await Todo.find()
+    
     res.status(200).json({
       message: "Todo updated",
       todo: updateTodo,
